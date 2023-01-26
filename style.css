@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&display=swap');
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#info {
+    font-family: "Alexandria", sans-serif;
+    color: #3b3b3b;
+}
+
+#info img {
+    position: absolute;
+    display: block;
+    top: 10px;
+    right: 40px;
+    padding: 25px;
+    z-index: 5;
+}
+
+.info__content {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    padding: 10% 25%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: 2;
+
+}
+
+.content__text {
+    width: 50%;
+    height: 50%;
+    padding: 0;
+}
+
+.content__text p span{
+    text-decoration: underline;
+}
+
+#labels{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    font-family: "Alexandria", sans-serif;
+    font-weight: bold;
+    fill: #3b3b3b;
+    margin-left: 70px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#labels div{
+    display: flex;
+    flex-direction: row;
+}
+
+#labels div div{
+    margin: 0 10px;
+}
+
+#buttons{
+    display: flex;
+    width: 1280px;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Alexandria", sans-serif;
+    font-size: 14px;
+    margin: 30px 60px -10px 80px;
+    color: #b6b6b6;
+    z-index: 100;
+}
+
+#order-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "Alexandria", sans-serif;
+    font-size: 14px;
+    /*margin: 40px 0 -30px 80px;*/
+    /*margin: 30px 0 -10px 80px;*/
+    column-gap: 10px;
+    color: #b6b6b6;
+}
+
+#age-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-family: "Alexandria", sans-serif;
+    font-size: 14px;
+    column-gap: 15px;
+    color: #b6b6b6;
+}
+
+#age-btn p, #order-btn p{
+    cursor: pointer;
+}
+
+#order-btn p:first-child, #age-btn p:first-child{
+    cursor: default;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+#age-btn p:not(:first-child):hover,
+#b-name:hover,
+#b-words:hover {
+    text-decoration: underline;
+}
+
+.is-active{
+    color: #3b3b3b;
+}
+
+.arrow{
+    font-size: 10px;
+}
