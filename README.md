@@ -6,4 +6,4 @@ Developed for the Information Visualization subject of the Master's Degree in De
 
 Made by Carlos Alves and Maria Fonseca
 
-Data collected from wordbank.stanford.edu
+Data collected from [wordbank.stanford.edu](wordbank.stanford.edu)
